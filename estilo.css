@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+
+}
+
+#container {
+    display: inline-block;  
+}
+
+.login {
+    text-decoration: none;
+    background-color: #fff;
+    width: 300px;
+    float: left;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);;
+    margin-top: 90px;
+
+
+}
+
+.img_logo img {
+    width: 40px;
+}
+
+.img_logo {
+    text-align: center;
+
+}
+
+.titulo_logo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo_logo h1 {
+    font-size: 30px;
+}
+
+.titulo_logo h5 {
+    font-size: 12px;
+    color: #a8a2aa;
+}
+
+
+.inputs_login input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #f0f0f1;
+    padding-left: 5px;
+    border-radius: 4px;
+}
+
+.input_name_login {
+    margin-top: 20px;
+}
+
+.input_senha_login {
+    margin-top: 20px;
+}
+
+.inputs_login label {
+    color: #2c2821;
+}
+
+.inputs_login ::placeholder {
+    font-size: 12px;
+}
+
+.password_salve {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    outline: none;
+}
+
+.login button {
+    margin-top: 25px;
+    border: none;
+    background-color: #a4b3ff;
+    color: #fff;
+    padding: 4px 20px;
+}
+
+.password_salve {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.cadastro {
+    background-image: linear-gradient(to right, #0d1b79, #9b1da5);
+    float: left;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.img_cadastro {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img_cadastro img {
+    width: 40px;
+}
+
+.titulo_cadastro h1 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.inputs_cadastro input {
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.inputs_cadastro ::placeholder {
+    font-size: 12px;
+}
+
+.inputs_cadastro label {
+    color: #ffffff;
+}
+
+.input_name_cadastro {
+    margin-top: 20px;
+}
+
+.input_email_cadastro {
+    margin-top: 20px;
+}
+
+.input_password_cadastro {
+    margin-top: 20px;
+}
+
+.cadastro button{
+    padding: 5px 30px;
+    color: #2c2821;
+    border: none;
+}
+
+
+.cadastro_text {
+    color: #ffffff;
+    text-align: center;
+}
+
+.cadastro_alternativo {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.cadastro_alternativo div {
+    display: inline;
+}
+
+.cadastro_alternativo img {
+    width: 20px;
+}
+
